@@ -56,4 +56,12 @@ for (var i = 0; i < names.length; i++){
 }
 
 console.log("===============================")
-// Print out every odd number between 0 and 100. Do NOT print any even numbers, and do NOT create an Array to help you do this.
+// Print out every odd number between 0 and 100. 
+//Do NOT print any even numbers, and do NOT create an Array to help you do this.
+
+for (var i = 0; i <=100; i++) {
+    if (i % 2 === 0) {}
+    else {
+        console.log(i)
+    }
+}
