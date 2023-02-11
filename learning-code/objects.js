@@ -36,3 +36,8 @@ var person = {
 
 console.log(person);
 console.log(person.multiLingual);
+
+person.school = "Turing";
+person.career = "Software Developer";
+
+console.log(Object.keys(person));
