@@ -41,3 +41,26 @@ person.school = "Turing";
 person.career = "Software Developer";
 
 console.log(Object.keys(person));
+
+console.log("---------------------------------------------------------")
+
+var numbers = [2, 7, 5, 42, 29, 78, 94, 1]
+
+function isOver30() {
+    for (var i = 0; i < numbers.length; i++) {
+        if (numbers[i] > 30) {
+            console.log(numbers[i]);
+        }
+    }
+}
+isOver30();
+
+function isUnder60 () {
+    for (var i = 0; i < numbers.length; i++) {
+        if (numbers[i] < 60) {
+            console.log(numbers[i]);
+        }
+    }
+}
+
+isUnder60();
