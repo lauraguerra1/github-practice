@@ -24,3 +24,15 @@ zoo.monkeys = 5
 console.log(zoo.monkeys);
 zoo.whales = 7
 console.log(Object.keys(zoo));
+
+console.log("-----------------------------------------------")
+var person = {
+    name: "Laura",
+    age: 23,
+    ethnicity: "Latino",
+    countryOfOrigin: "Brazil",
+    multiLingual: true
+}
+
+console.log(person);
+console.log(person.multiLingual);
